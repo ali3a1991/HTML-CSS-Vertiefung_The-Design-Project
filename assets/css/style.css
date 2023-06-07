@@ -112,8 +112,7 @@ main .scroll{
 }
 
 .about article{
-    flex-basis: 530px;
-    padding-right: 180px;
+    max-width: 500px;
 }
 
 .about article h3 img{
@@ -146,7 +145,7 @@ main .scroll{
 
 .challenge-steps article{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 150px;
 }
